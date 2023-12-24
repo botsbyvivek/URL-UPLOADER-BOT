@@ -43,9 +43,9 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @url_uploaderV3Bott"
+    DEF_WATER_MARK_FILE = "By @UrlUploader_TG_Bot"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "s")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "TG_FILES")
 
